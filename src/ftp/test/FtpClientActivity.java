@@ -1,3 +1,5 @@
+//THIS WORKS
+
 package ftp.test;
 
 
@@ -70,7 +72,7 @@ public class FtpClientActivity extends Activity {
 				} else {
 
 				   
-					resultText.append("Connectiondskfnkjaf failed :(");
+					resultText.append("Connection failed :(");
 					resultText.append("\n");
 				}
 
