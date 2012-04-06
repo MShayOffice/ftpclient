@@ -10,7 +10,8 @@ public class FtpList extends FtpClientActivity {
 		super.onCreate(savedInstanceState);
         setContentView(R.layout.ftplist);
         this.resultText = (EditText)findViewById(R.id.results);
-        
+      //  String transfer = "dkghdakgjhsajghjsldhgsf";
+      //  resultText.setText(transfer);
       //  displayFolderNames(ftpGetCurrentWorkingDirectory(aFTPClient), resultText);
 	}
 	

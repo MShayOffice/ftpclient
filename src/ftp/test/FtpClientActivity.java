@@ -28,6 +28,7 @@ public class FtpClientActivity extends Activity {
 	private EditText password;
 	private EditText port;
 	private EditText resultText;
+	//public String transfer;
 
 	FTPClient aFTPClient = new FTPClient();
 
@@ -68,6 +69,8 @@ public class FtpClientActivity extends Activity {
 					resultText.append("\n");
 					Intent newwindow = new Intent(FtpClientActivity.this, FtpList.class);
     			    startActivity(newwindow);
+    			   // transfer = "Work";
+    			    //transfer = (ftpGetCurrentWorkingDirectory(aFTPClient));
 					//displayFolderNames(ftpGetCurrentWorkingDirectory(aFTPClient),resultText);
 				} else {
 
