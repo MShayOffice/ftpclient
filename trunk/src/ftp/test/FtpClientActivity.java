@@ -1,7 +1,4 @@
-//THIS WORKS
-
 package ftp.test;
-
 
 import org.apache.commons.net.ftp.FTP;
 import org.apache.commons.net.ftp.FTPClient;
@@ -16,7 +13,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
-
 
 
 public class FtpClientActivity extends Activity {
@@ -95,6 +91,7 @@ public class FtpClientActivity extends Activity {
 			}
         });
     }
+    
     public boolean ftpConnect(FTPClient mFTPClient, String host,
 			String username, String password, int port) {
 		try {
@@ -147,6 +144,7 @@ public class FtpClientActivity extends Activity {
 			return null;
 		}
 	}
+    
     public void displayFolderNames (String[] names, TextView view)
     {
     	for (int i = 0; i < names.length; i++)
